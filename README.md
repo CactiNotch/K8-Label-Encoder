@@ -5,13 +5,13 @@ A Go module for encoding special characters to be compliant with the character l
 ## Installation
 
 ```bash
-go get github.com/YourUsername/K8-Label-Encoder
+go get github.com/CactiNotch/K8-Label-Encoder
 ```
 
 ## Usage
 
 ```go
-import "github.com/YourUsername/K8-Label-Encoder"
+import "github.com/CactiNotch/K8-Label-Encoder"
 
 func main() {
     label := "hello world!"
