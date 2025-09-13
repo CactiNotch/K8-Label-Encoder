@@ -15,7 +15,7 @@ import "github.com/CactiNotch/K8-Label-Encoder"
 
 func main() {
     label := "hello world!"
-    encoded := encoder.EncodeSpecialChars(label)
+    encoded := encoder.EncodeSpecialChars(label) // Encodes to "hello_20world_21"
     decoded := encoder.DecodeSpecialChars(encoded)
 }
 ```
